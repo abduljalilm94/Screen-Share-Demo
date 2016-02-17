@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="TestApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Inflight App</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body ng-controller="ctrl">
+    <div class="container-fluid border">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row border-bottom">
+				<div class="col-md-12" ng-click="nextPage('/home', true);">
+					<img class="logo-img pull-right" src="images/logo.png">
+					<div class="logo-txt">VENDOR</div>
+				</div>
+			</div>
+			<div ng-view></div>
+		</div>
+	</div>
+	</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

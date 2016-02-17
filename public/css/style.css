@@ -1,0 +1,13 @@
+.border {border: 5px solid #000; width: 300px; height: 500px;}
+.border-bottom {border-bottom: 5px solid #000;}
+.logo-txt {font-size: 25px; font-weight: bold; padding-top: 8px;}
+.logo-img {width: 50px;}
+.td {border-top: 0 !important;}
+.icon {text-align: center; margin-top: 65px;}
+.icon-img {width: 55px;}
+.icon-txt {font-size: 20px; font-weight: bold;}
+.text-center {text-align: center;}
+textarea {resize: none;}
+.form-input {width: 75%; margin-top: 10px;}
+.form-btn {margin-top: 150px;}
+.margin-top {margin-top: 55px;}
